@@ -4,21 +4,12 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/samla/CLionProjects/sACNET/Artnet/Artnet.cpp" "C:/Users/samla/CLionProjects/sACNET/cmake-build-debug/CMakeFiles/sACNET.dir/Artnet/Artnet.cpp.obj"
-  "C:/Users/samla/CLionProjects/sACNET/library.cpp" "C:/Users/samla/CLionProjects/sACNET/cmake-build-debug/CMakeFiles/sACNET.dir/library.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/dev/sACNET/Artnet/Artnet.cpp" "CMakeFiles/sACNET.dir/Artnet/Artnet.cpp.obj" "gcc" "CMakeFiles/sACNET.dir/Artnet/Artnet.cpp.obj.d"
+  "C:/dev/sACNET/library.cpp" "CMakeFiles/sACNET.dir/library.cpp.obj" "gcc" "CMakeFiles/sACNET.dir/library.cpp.obj.d"
   )
 
 # Targets to which this target links.

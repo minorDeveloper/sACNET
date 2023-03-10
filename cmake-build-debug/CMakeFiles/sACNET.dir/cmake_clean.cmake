@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sACNET.dir/Artnet/Artnet.cpp.obj"
+  "CMakeFiles/sACNET.dir/Artnet/Artnet.cpp.obj.d"
   "CMakeFiles/sACNET.dir/library.cpp.obj"
+  "CMakeFiles/sACNET.dir/library.cpp.obj.d"
   "libsACNET.a"
   "libsACNET.pdb"
 )

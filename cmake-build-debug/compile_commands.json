@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/dev/sACNET/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sACNET.dir/includes_CXX.rsp  -DASIO_STANDALONE -pthread -g -fdiagnostics-color=always -std=gnu++14 -o CMakeFiles\\sACNET.dir\\library.cpp.obj -c C:\\dev\\sACNET\\library.cpp",
+  "file": "C:/dev/sACNET/library.cpp"
+},
+{
+  "directory": "C:/dev/sACNET/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sACNET.dir/includes_CXX.rsp  -DASIO_STANDALONE -pthread -g -fdiagnostics-color=always -std=gnu++14 -o CMakeFiles\\sACNET.dir\\Artnet\\Artnet.cpp.obj -c C:\\dev\\sACNET\\Artnet\\Artnet.cpp",
+  "file": "C:/dev/sACNET/Artnet/Artnet.cpp"
+},
+{
+  "directory": "C:/dev/sACNET/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sACNETTest.dir/includes_CXX.rsp  -DASIO_STANDALONE -pthread -g -fdiagnostics-color=always -std=gnu++14 -o CMakeFiles\\sACNETTest.dir\\main.cpp.obj -c C:\\dev\\sACNET\\main.cpp",
+  "file": "C:/dev/sACNET/main.cpp"
+}
+]

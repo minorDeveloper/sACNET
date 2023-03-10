@@ -1,2 +1,2 @@
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc libsACNET.a CMakeFiles/sACNET.dir/library.cpp.obj CMakeFiles/sACNET.dir/Artnet/Artnet.cpp.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe libsACNET.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc libsACNET.a CMakeFiles/sACNET.dir/library.cpp.obj CMakeFiles/sACNET.dir/Artnet/Artnet.cpp.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ranlib.exe libsACNET.a
