@@ -20,6 +20,6 @@ link_libraries(ws2_32 wsock32)
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DASIO_STANDALONE -pthread")
 SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_library(sACNET consts.h library.cpp Artnet/ArtConsts.h RDM/RDMConsts.h Artnet/Artnet.cpp Artnet/Artnet.h)
+add_library(sACNET consts.h library.cpp Artnet/ArtConsts.h RDM/RDMConsts.h Artnet/Artnet.cpp Artnet/Artnet.h Artnet/ArtPacket/ArtPoll.h Artnet/ArtPacket/ArtPacket.h)
 
 add_executable(sACNETTest main.cpp)

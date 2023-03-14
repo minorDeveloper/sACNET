@@ -983,7 +983,8 @@ CMakeFiles/sACNETTest.dir/main.cpp.obj: C:/dev/sACNET/main.cpp \
   _deps/asio-src/asio/include/asio/writable_pipe.hpp \
   _deps/asio-src/asio/include/asio/write.hpp \
   _deps/asio-src/asio/include/asio/write_at.hpp \
-  _deps/asio-src/asio/include/asio/impl/write_at.hpp
+  _deps/asio-src/asio/include/asio/impl/write_at.hpp \
+  C:/dev/sACNET/Artnet/ArtPacket/ArtPoll.h
 
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
@@ -2541,6 +2542,8 @@ _deps/asio-src/asio/include/asio/dispatch.hpp:
 _deps/asio-src/asio/include/asio/impl/dispatch.hpp:
 
 _deps/asio-src/asio/include/asio/impl/executor.hpp:
+
+C:/dev/sACNET/Artnet/ArtPacket/ArtPoll.h:
 
 _deps/asio-src/asio/include/asio/impl/executor.ipp:
 

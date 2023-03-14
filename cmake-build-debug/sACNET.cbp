@@ -133,6 +133,12 @@
 		<Unit filename="C:/dev/sACNET/Artnet/ArtConsts.h">
 			<Option target="sACNET"/>
 		</Unit>
+		<Unit filename="C:/dev/sACNET/Artnet/ArtPacket/ArtPacket.h">
+			<Option target="sACNET"/>
+		</Unit>
+		<Unit filename="C:/dev/sACNET/Artnet/ArtPacket/ArtPoll.h">
+			<Option target="sACNET"/>
+		</Unit>
 		<Unit filename="C:/dev/sACNET/Artnet/Artnet.cpp">
 			<Option target="sACNET"/>
 		</Unit>

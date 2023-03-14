@@ -6,11 +6,12 @@
 #define SACNET_ARTCONSTS_H
 
 #include <cstdint>
-#include "consts.h"
+#include <string>
 
 namespace Artnet {
+    std::string ArtNetString = "Art-Net\n";
 
-     enum class ArtOp : sACNET::OPCODE16 {
+    enum class ArtOp : std::uint16_t {
         OpPoll              = 0x2000,   // Transmited by controllers to discover devices
         OpPollReply         = 0x2100,   // Discovery process acknowledgement, also contains status info
         OpCommand           = 0x2400,   // Used to issue property->set commands

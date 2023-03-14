@@ -6,8 +6,6 @@
 #define SACNET_ARTNET_H
 
 
-// Should this class be a singleton?
-
 
 class Artnet {
 

@@ -89,7 +89,9 @@
 				0,
 				2,
 				3,
-				5
+				5,
+				6,
+				7
 			]
 		},
 		{
@@ -133,6 +135,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "Artnet/Artnet.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Artnet/ArtPacket/ArtPoll.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Artnet/ArtPacket/ArtPacket.h",
 			"sourceGroupIndex" : 0
 		}
 	],

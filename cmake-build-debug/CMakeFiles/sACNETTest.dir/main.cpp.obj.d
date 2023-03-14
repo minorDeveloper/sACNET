@@ -980,4 +980,5 @@ CMakeFiles/sACNETTest.dir/main.cpp.obj: C:\dev\sACNET\main.cpp \
  C:/dev/sACNET/cmake-build-debug/_deps/asio-src/asio/include/asio/writable_pipe.hpp \
  C:/dev/sACNET/cmake-build-debug/_deps/asio-src/asio/include/asio/write.hpp \
  C:/dev/sACNET/cmake-build-debug/_deps/asio-src/asio/include/asio/write_at.hpp \
- C:/dev/sACNET/cmake-build-debug/_deps/asio-src/asio/include/asio/impl/write_at.hpp
+ C:/dev/sACNET/cmake-build-debug/_deps/asio-src/asio/include/asio/impl/write_at.hpp \
+ C:\dev\sACNET\Artnet/ArtPacket/ArtPoll.h
