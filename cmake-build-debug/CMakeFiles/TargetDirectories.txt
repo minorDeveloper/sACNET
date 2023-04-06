@@ -1,4 +1,0 @@
-C:/dev/sACNET/cmake-build-debug/CMakeFiles/sACNET.dir
-C:/dev/sACNET/cmake-build-debug/CMakeFiles/sACNETTest.dir
-C:/dev/sACNET/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/dev/sACNET/cmake-build-debug/CMakeFiles/rebuild_cache.dir

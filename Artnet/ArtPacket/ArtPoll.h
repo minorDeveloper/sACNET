@@ -26,8 +26,8 @@ public:
         byteArray[5] = std::uint8_t('e');
         byteArray[6] = std::uint8_t('t');
         byteArray[7] = std::uint8_t('\n');
-        byteArray[8] = std::uint16_t(OpCode) >> 8;
-        byteArray[9] = std::uint16_t(OpCode) & 0xFF;
+        byteArray[9] = std::uint16_t(OpCode) >> 8;
+        byteArray[8] = std::uint16_t(OpCode) & 0xFF;
         byteArray[10]= 14 >> 8;
         byteArray[11]= 14 & 0xFF;
         byteArray[12]= 0;
