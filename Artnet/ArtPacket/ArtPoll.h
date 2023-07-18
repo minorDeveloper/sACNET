@@ -9,32 +9,42 @@
 #include "ArtPacket.h"
 
 
+#include <iostream>
+
 class ArtPoll : ArtPacket {
-    const static std::uint8_t length = 14;
-    std::array<std::uint8_t, length> byteArray;
-    Artnet::ArtOp OpCode = Artnet::ArtOp::OpPoll;
 
 public:
     ArtPoll() {
+
+        this->length = 14;
+        this->OpCode = Artnet::ArtOp::OpPoll;
+        std::cout << this->length << std::endl;
+        this->bytes.reserve(this->length);
+        std::cout << this->bytes.size() << std::endl;
+
+
         // Artnet message
         for (int i = 0; i < 8; i++) {
-            byteArray[i] = std::uint8_t(Artnet::ArtNetString[i]);
+            this->bytes.push_back(std::uint8_t(Artnet::ArtNetString[i]));
         }
 
+        std::cout << "Packet created" << std::endl;
+
         // Opcode
-        byteArray[8] = std::uint16_t(OpCode) & 0xFF;
-        byteArray[9] = std::uint16_t(OpCode) >> 8;
+        this->bytes.push_back(std::uint16_t(this->OpCode) & 0xFF);
+        this->bytes.push_back(std::uint16_t(this->OpCode) >> 8);
 
         // Flags
-        byteArray[10]= 14 >> 8;
-        byteArray[11]= 14 & 0xFF;
-        byteArray[12]= 0;
-        byteArray[13]= 0;
+        this->bytes[10]= 14 >> 8;
+        this->bytes[11]= 14 & 0xFF;
+        this->bytes[12]= 0;
+        this->bytes[13]= 0;
+
     }
 
     // TODO note this returns a copy
-    std::array<std::uint8_t, length> getByteArray(){
-        return byteArray;
+    std::vector<std::uint8_t> getBytes(){
+        return this->bytes;
     }
 
 };

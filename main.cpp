@@ -19,7 +19,7 @@ int main() {
         socket.open(udp::v4());
         socket.bind(udp::endpoint(udp::v4(), 6454));
 
-        socket.send_to(asio::buffer(artPollPacket.getByteArray()), receiver_endpoint);
+        socket.send_to(asio::buffer(artPollPacket.getBytes()), receiver_endpoint);
 
         char recv_buf[128];
         udp::endpoint sender_endpoint;

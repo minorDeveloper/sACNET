@@ -6,6 +6,16 @@
 #define SACNET_ARTPACKET_H
 
 class ArtPacket {
+private:
+
+protected:
+    std::uint16_t length;
+    std::vector<std::uint8_t> bytes;
+    Artnet::ArtOp OpCode;
+
+public:
+
+
 };
 
 
