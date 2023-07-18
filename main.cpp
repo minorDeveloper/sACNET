@@ -17,11 +17,13 @@ int main() {
 
         udp::socket socket(io_context);
         socket.open(udp::v4());
+        socket.bind(udp::endpoint(udp::v4(), 6454));
 
         socket.send_to(asio::buffer(artPollPacket.getByteArray()), receiver_endpoint);
 
         char recv_buf[128];
         udp::endpoint sender_endpoint;
+        sender_endpoint.port(6454);
         size_t len = socket.receive_from(
                 asio::buffer(recv_buf), sender_endpoint
                 );
@@ -29,6 +31,7 @@ int main() {
 
         // Need to listen on 6454
         std::cout.write(recv_buf, len);
+        //std::cout << "Reached here" << std::endl;
     } catch (std::exception& e) {
         std::cerr << e.what() << std::endl;
     }

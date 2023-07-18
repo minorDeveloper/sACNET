@@ -5,9 +5,7 @@
 #ifndef SACNET_ARTPACKET_H
 #define SACNET_ARTPACKET_H
 
-
 class ArtPacket {
-
 };
 
 

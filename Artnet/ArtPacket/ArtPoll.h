@@ -5,29 +5,27 @@
 #ifndef SACNET_ARTPOLL_H
 #define SACNET_ARTPOLL_H
 
-#include <array>
-#include <cstdint>
+#include "../ArtConsts.h"
+#include "ArtPacket.h"
 
 
-class ArtPoll{
-    std::array<std::uint8_t, 14> byteArray;
-
-    //Artnet::ArtOp OpCode = Artnet::ArtOp::OpPoll;;
-    std::uint16_t OpCode = 0x2000;
-
+class ArtPoll : ArtPacket {
+    const static std::uint8_t length = 14;
+    std::array<std::uint8_t, length> byteArray;
+    Artnet::ArtOp OpCode = Artnet::ArtOp::OpPoll;
 
 public:
     ArtPoll() {
-        byteArray[0] = std::uint8_t('A');
-        byteArray[1] = std::uint8_t('r');
-        byteArray[2] = std::uint8_t('t');
-        byteArray[3] = std::uint8_t('-');
-        byteArray[4] = std::uint8_t('N');
-        byteArray[5] = std::uint8_t('e');
-        byteArray[6] = std::uint8_t('t');
-        byteArray[7] = std::uint8_t('\n');
-        byteArray[9] = std::uint16_t(OpCode) >> 8;
+        // Artnet message
+        for (int i = 0; i < 8; i++) {
+            byteArray[i] = std::uint8_t(Artnet::ArtNetString[i]);
+        }
+
+        // Opcode
         byteArray[8] = std::uint16_t(OpCode) & 0xFF;
+        byteArray[9] = std::uint16_t(OpCode) >> 8;
+
+        // Flags
         byteArray[10]= 14 >> 8;
         byteArray[11]= 14 & 0xFF;
         byteArray[12]= 0;
@@ -35,7 +33,7 @@ public:
     }
 
     // TODO note this returns a copy
-    std::array<std::uint8_t, 14> getByteArray(){
+    std::array<std::uint8_t, length> getByteArray(){
         return byteArray;
     }
 
