@@ -24,8 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f97736fa-6d86-476f-b6a4-000116eedec7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artnet/ArtConsts.h" beforeDir="false" afterPath="$PROJECT_DIR$/Artnet/ArtConsts.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Artnet/ArtPacket/ArtPacket.h" beforeDir="false" afterPath="$PROJECT_DIR$/Artnet/ArtPacket/ArtPacket.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Artnet/ArtPacket/ArtPoll.h" beforeDir="false" afterPath="$PROJECT_DIR$/Artnet/ArtPacket/ArtPoll.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artnet/ArtPacket/ArtPollReply.h" beforeDir="false" afterPath="$PROJECT_DIR$/Artnet/ArtPacket/ArtPollReply.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +106,7 @@
       <workItem from="1688935557271" duration="490000" />
       <workItem from="1689682251653" duration="100000" />
       <workItem from="1689683706285" duration="1689000" />
-      <workItem from="1689687209743" duration="4721000" />
+      <workItem from="1689687209743" duration="16846000" />
     </task>
     <servers />
   </component>

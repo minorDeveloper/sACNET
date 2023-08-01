@@ -7,11 +7,14 @@
 
 #include <cstdint>
 #include <string>
+#include <vector>
 
 namespace Artnet {
-    std::string ArtNetString = "Art-Net\0";
+    std::string ArtnetString = "Art-Net\0";
+    std::vector<std::uint8_t> ArtnetBytes{0x41, 0x72, 0x74, 0x2D, 0x4E, 0x65, 0x74, 0x00};
 
     enum class ArtOp : std::uint16_t {
+        OpNull              = 0x0000,
         OpPoll              = 0x2000,   // Transmited by controllers to discover devices
         OpPollReply         = 0x2100,   // Discovery process acknowledgement, also contains status info
         OpDiagData          = 0x2300,   // Diagnostics and data loging packet
